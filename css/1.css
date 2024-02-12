@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'poppins';
+}
+.big{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(bb1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+.logo{
+    color: white;
+    width: 170px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    inline-size: auto;  
+ }
+nav{
+   z-index: 1;
+    top: 0px;
+    width: 1150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(19, 19, 19);   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+.login-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 30px;
+    color: #111;
+    background-color: #f4f4f4;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.content{
+    margin-top: 8%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 50px;
+    color: #f4f4f4;
+}
+#details{
+    color: #f4f4f4;
+    margin-top: 11%;
+    font-size: 23px;
+}
+#time{
+    color: #f4f4f4;
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+    margin-top: 7%;
+}
+#line, #Offer{
+inline-size: none;
+}
+#offer{
+    color: #f4f4f4;
+    text-decoration: line-through;
+}
+#P1{
+    font-size: 17px;
+    color: #a6a6a6;
+    text-decoration: line-through;
+}
+#p2{
+    color: #f4f4f4;
+    font-size: 20px;
+}
+#buy{
+    text-decoration: none;
+    border-radius: 30px;
+    color: #f4f4f4;
+    background-color: #0a32c1;
+    padding: 5px 25px;
+    font-size: 23px;
+}
+.headphone{
+    display: flex;
+    width: 500px;
+    position: absolute;
+    top: 99px;
+    right: 10%;
+    transform: rotate(10deg)
+    
+}
+@keyframes headf {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(1);
+
+    }
+}
+.headphone{
+    animation-name: headf ;
+    animation-duration: 2s;
+}
+.Premium{
+    width: 450px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+.bige{
+   display: flex;
+   padding-top: 250px;
+  
+}
+.text .text2{
+    font-size: 30px;
+    padding-left: 90px;
+    color: #e4e4e4;
+    font-family: 'Outfit', sans-serif;
+}
+.text3{
+    font-size: 20px;
+    padding-left: 90px;
+    color: #c8c8c8;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+@keyframes ora {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(1);
+
+    }
+}
+
+.Premium{
+    animation-name: ora ;
+    animation-duration: 2s;
+}
+.asas{
+    padding-top: 200px;
+}
+.asas{
+
+    background-color: aqua;
+   
+}
+.dad{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.img-thumbnail2{
+    width: 340px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.img-thumbnail3{
+    width: 340px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.img-thumbnail4{
+    width: 265px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.carousel img {
+
+    height: 70vh;
+    
+ }
+ .text5{
+    font-size: 25px;
+    color: #d7d7d7;
+ }
+ .carousel-caption d-none d-md-block{
+    color: #0a32c1;
+ }
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #5d5d5d;
+    border-radius: 9px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #1536ab;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0e1751;
+  }
+  
+  .container {
+    border-radius: 9px;
+    background-color: #2e2e2e;
+    padding: 20px;
+  }
+  .a1{
+    color: #e9e9e9;
+  }
+  .a2{
+    color: #e6e4e4;
+  }
+  .a3{
+    color: #e9e6e6;
+  }
+  .a4{
+    color: #dfdfdf;
+  }
+  .conta{
+    color: #dfdfdf;
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
+  }
